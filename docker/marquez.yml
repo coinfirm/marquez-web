@@ -13,6 +13,6 @@ db:
   password: ${POSTGRES_PASSWORD}
 
 logging:
-  level: ${LOG_LEVEL:-INFO}
+  level: ${LOG_LEVEL:-DEBUG}
   appenders:
     - type: console
